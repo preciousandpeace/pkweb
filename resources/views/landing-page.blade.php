@@ -28,13 +28,13 @@
 <div id="menu-item" class="menu-item hide-menu">
     <div class="container">
         <ul>
-            <a href="index.html"><li>home</li></a>
+            <a href="index.php"><li>home</li></a>
             <a href="#about"><li>about</li></a>
-            <a href="#expertise"><li>expertise</li></a>
-            <a href="#workstation"><li>workstation</li></a>
-            <a href="#team"><li>team</li></a>
+            <a href="#services"><li>services</li></a>
+            <a href="#ProfessionalDesign"><li>Professional Design</li></a>
+            <a href="#Portfolio"><li>Portfolio</li></a>
+            <a href="#subscribe"><li>Subscribe</li></a>
             <a href="#contact"><li>contact</li></a>
-            <a href="elements.html"><li>Elements</li></a>
         </ul>
     </div>
 </div>
@@ -46,7 +46,7 @@
                     <div class="row">
                         <div class="col-xs-6">
                             <div class="logo">
-                                <a href="index.html"><span class="ubutia-icon"></span></a>
+                                <a href="index.php"><span class="ubutia-icon"></span></a>
                             </div>
                         </div>
                         <div class="col-xs-6 text-right">
@@ -80,15 +80,28 @@
                         Providing a high quality website, without commanding the fees other companies do. You attract more business,
                         more clients and more attention with a well designed website.
                     </p>
-                    <img src="{{asset('/assets/images/signature.png')}}">
+                    <img src="assets/images/signature.png">
                     <span>PkSpiderWeb</span>
                 </div>
             </div>
         </div>
     </section>
-    <section class="purpose section">
+    <section class="watch bg-img">
         <div class="container">
-            <h2 class="title">What we do</h2>
+            <div class="row">
+                <div class="col-sm-12">
+                    <video width="500" height="281" controls>
+                        <source src="assets/images/pkspiderweb2.mp4" type="video/mp4">
+
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services" class="purpose section">
+        <div class="container">
+            <h2 class="title">Our Services</h2>
             <div class="row">
 
 
@@ -274,7 +287,7 @@
             </div>
         </div>
     </section>
-    <section id="expertise" class="expert">
+    <section id="ProfessionalDesign" class="expert">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-6 bg-img">
@@ -323,24 +336,24 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <img class="quote" src={{asset('/assets/images/quote.png')}}>
+                    <img class="quote" src="assets/images/quote.png">
                     <p>
                         Successful people do what unsuccessful people are not willing to do. Don't wish it were easier; wish you were better.
                     </p>
                     <p class="author">Jim Rohn</p>
-                    <img src="{{asset('/assets/images/mouse.png')}}">
+                    <img src="assets/images/mouse.png">
                 </div>
             </div>
         </div>
     </section>
-    <section id="workstation" class="work section">
+    <section id="Portfolio" class="work section">
         <div class="container">
             <h2 class="title">Our Portfolio</h2>
             <div id="workstation-slider" class="owl-carousel">
                 <div class="item">
                     <div class="ubutia-card">
                         <div class="ubutia-card-header">
-                            <a href="https://dupsycollection.com/" target="_blank"><img class="img-responsive" src="assets/images/4.jpg"></a>
+                            <a href="https://dupsycollection.com/" target="_blank"><img class="img-responsive" src="assets/images/4.JPG"></a>
                         </div>
                         <div class="ubutia-card-content">
                             <h3>Dupsy Collection</h3>
@@ -354,7 +367,7 @@
                 <div class="item">
                     <div class="ubutia-card">
                         <div class="ubutia-card-header">
-                            <a href="http://seanadexcouture.com/" target="_blank"><img class="img-responsive" src="assets/images/5.jpg"></a>
+                            <a href="http://seanadexcouture.com/" target="_blank"><img class="img-responsive" src="assets/images/5.JPG"></a>
                         </div>
                         <div class="ubutia-card-content">
                             <h3>Sean Adex Couture Fashion</h3>
@@ -373,7 +386,7 @@
                         <div class="ubutia-card-content">
                             <h3>PreciousAndPeace</h3>
                             <p>
-                                Its under construction.
+                                under construction.
                             </p>
                             <p>
                                 PreciousAndPeace Boutique is a start-up retail establishment that will sell fashionable clothing to women of the Millennial generation.
@@ -384,13 +397,15 @@
                 <div class="item">
                     <div class="ubutia-card">
                         <div class="ubutia-card-header">
-                            <a href="https://dupsycollection.com/" target="_blank"><img class="img-responsive" src="assets/images/4.jpg"></a>
+                            <a href="https://dupsycollection.com/" target="_blank"><img class="img-responsive" src="assets/images/12.JPG"></a>
                         </div>
                         <div class="ubutia-card-content">
-                            <h3>Dupsy Collection</h3>
+                            <h3>Premium Camping</h3>
                             <p>
-                                Welcome to Dupsy Collection, Your number one source for all things Fashion. We're dedicated to giving you the very best of our collection, with a focus on
-                                dependability, customer service and uniqueness
+                                under construction.
+                            </p>
+                            <p>
+                                Premium Camping is a camping ground in france. Customer can book their camping ground online and also pre book any additional toiletry they might have forgotten.
                             </p>
                         </div>
                     </div>
@@ -398,112 +413,107 @@
                 <div class="item">
                     <div class="ubutia-card">
                         <div class="ubutia-card-header">
-                            <a href="http://seanadexcouture.com/" target="_blank"><img class="img-responsive" src="assets/images/5.jpg"></a>
+                            <a href="http://seanadexcouture.com/" target="_blank"><img class="img-responsive" src="assets/images/13.JPG"></a>
                         </div>
                         <div class="ubutia-card-content">
-                            <h3>Sean Adex Couture Fashion</h3>
+                            <h3>Smith Bicycle Shop</h3>
                             <p>
-                                Sean Adex Couture, a world-famous iconic label whose journey began in Lagos in 1998. His curiosity for cultures steered his love and interest
-                                to focus on unique fashion designs that appeal to both men and women of various tastes and preferences.
+                                under construction.
+                            </p>
+                            <p>
+                                Smith Bicycle Shop is a start-up bicycle shop in Co.Carlow. Customer will be able to order bicycle online for delivery or pick up in store. They can also book an
+                                appointment online to get their old bicycle fixed.
                             </p>
                         </div>
                     </div>
                 </div>
+
                 <div class="item">
                     <div class="ubutia-card">
                         <div class="ubutia-card-header">
-                            <a href="http://preciousandpeace.com/" target="_blank"><img class="img-responsive" src="assets/images/6.PNG"></a>
+                            <a href="http://seanadexcouture.com/" target="_blank"><img class="img-responsive" src="assets/images/14.jpg"></a>
                         </div>
                         <div class="ubutia-card-content">
-                            <h3>PreciousAndPeace</h3>
+                            <h3>This Could your Web Site</h3>
                             <p>
-                                Its under construction.
+                                under construction.
                             </p>
                             <p>
-                                PreciousAndPeace Boutique is a start-up retail establishment that will sell fashionable clothing to women of the Millennial generation.
+                                Your very own business website.
                             </p>
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
-    <section class="watch bg-img">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <span>Watch PkSpiderWeb</span>
-                    <a class="popup-youtube btn" href="https://www.youtube.com/watch?v=Ax6Ts8hkr0E"><span class="play-icon"></span></a>
-                    <span>with us</span>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="team" class="team section">
-        <div class="container">
-            <h2 class="title">Our team</h2>
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="ubutia-card">
-                        <div class="ubutia-card-header">
-                            <img class="img-responsive" src="assets/images/8.jpg">
-                        </div>
-                        <div class="ubutia-card-content">
-                            <h3>Rosa Ly</h3>
-                            <p>
-                                Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consetetur,adipisivelit, sed quia non numquam eius modi tempora incidun.
-                            </p>
-                            <div class="social-icons">
-                                <ul>
-                                    <a href="#"><li><span class="ion-social-facebook"></span></li></a>
-                                    <a href="#"><li><span class="ion-social-twitter"></span></li></a>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="ubutia-card">
-                        <div class="ubutia-card-header">
-                            <img class="img-responsive" src="assets/images/9.jpg">
-                        </div>
-                        <div class="ubutia-card-content">
-                            <h3>Eva Ly</h3>
-                            <p>
-                                Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consetetur,adipisivelit, sed quia non numquam eius modi tempora incidun.
-                            </p>
-                            <div class="social-icons">
-                                <ul>
-                                    <a href="#"><li><span class="ion-social-facebook"></span></li></a>
-                                    <a href="#"><li><span class="ion-social-twitter"></span></li></a>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="ubutia-card">
-                        <div class="ubutia-card-header">
-                            <img class="img-responsive" src="assets/images/10.jpg">
-                        </div>
-                        <div class="ubutia-card-content">
-                            <h3>Graham Bill</h3>
-                            <p>
-                                Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consetetur,adipisivelit, sed quia non numquam eius modi tempora incidun.
-                            </p>
-                            <div class="social-icons">
-                                <ul>
-                                    <a href="#"><li><span class="ion-social-facebook"></span></li></a>
-                                    <a href="#"><li><span class="ion-social-twitter"></span></li></a>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="subscribe section bg-img">
+
+    <!--      <section id="team" class="team section">
+              <div class="container">
+                  <h2 class="title">Our team</h2>
+                  <div class="row">
+                      <div class="col-sm-4">
+                          <div class="ubutia-card">
+                              <div class="ubutia-card-header">
+                                  <img class="img-responsive" src="assets/images/8.jpg">
+                              </div>
+                              <div class="ubutia-card-content">
+                                  <h3>Rosa Ly</h3>
+                                  <p>
+                                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consetetur,adipisivelit, sed quia non numquam eius modi tempora incidun.
+                                  </p>
+                                  <div class="social-icons">
+                                      <ul>
+                                          <a href="#"><li><span class="ion-social-facebook"></span></li></a>
+                                          <a href="#"><li><span class="ion-social-twitter"></span></li></a>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-sm-4">
+                          <div class="ubutia-card">
+                              <div class="ubutia-card-header">
+                                  <img class="img-responsive" src="assets/images/9.jpg">
+                              </div>
+                              <div class="ubutia-card-content">
+                                  <h3>Eva Ly</h3>
+                                  <p>
+                                      Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consetetur,adipisivelit, sed quia non numquam eius modi tempora incidun.
+                                  </p>
+                                  <div class="social-icons">
+                                      <ul>
+                                          <a href="#"><li><span class="ion-social-facebook"></span></li></a>
+                                          <a href="#"><li><span class="ion-social-twitter"></span></li></a>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-sm-4">
+                          <div class="ubutia-card">
+                              <div class="ubutia-card-header">
+                                  <img class="img-responsive" src="assets/images/10.jpg">
+                              </div>
+                              <div class="ubutia-card-content">
+                                  <h3>Graham Bill</h3>
+                                  <p>
+                                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consetetur,adipisivelit, sed quia non numquam eius modi tempora incidun.
+                                  </p>
+                                  <div class="social-icons">
+                                      <ul>
+                                          <a href="#"><li><span class="ion-social-facebook"></span></li></a>
+                                          <a href="#"><li><span class="ion-social-twitter"></span></li></a>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </section>-->
+    <section id="subscribe" class="subscribe section bg-img">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
@@ -520,7 +530,7 @@
     </section>
     <section id="contact" class="contact section">
         <div class="container">
-            <h2 class="title">Drop us a line</h2>
+            <h2 class="title">Contact Us</h2>
             <div class="row">
                 <div class="col-sm-4">
                     <div class="ubutia-card">
@@ -530,7 +540,8 @@
                         <div class="ubutia-card-content">
                             <h3>Address</h3>
                             <p>
-                                Level 5, 25 pitt st, US
+                                135 Meadowbrook, Athlone, Co. Westmeath, N37 EY70
+
                             </p>
                         </div>
                     </div>
@@ -543,7 +554,10 @@
                         <div class="ubutia-card-content">
                             <h3>Phone</h3>
                             <p>
-                                +555 211 3747
+                                Ireland Contact: +353858228807
+                            </p>
+                            <p>
+                                Canada Contact: +1 (639) 317-7340
                             </p>
                         </div>
                     </div>
@@ -554,14 +568,60 @@
                             <span class="fa fa-paper-plane" aria-hidden="true"></span>
                         </div>
                         <div class="ubutia-card-content">
-                            <h3>Email</h3>
-                            <p>
-                                hey@freshdesignweb.com
-                            </p>
+
+                            <h3>Get In Touch</h3>
+							<?php if(!empty($message2) && ($message2=="Successfully Sent!")) {
+								echo "<div class=\"alert alert-success\"><strong>Success!</strong> Message Successfully Sent.</div>";
+								session_destroy();
+								session_unset();
+							}
+							else if(!empty($message2) && ($message2=="Sending Failed!")){
+								echo "<div class=\"alert alert-danger\"><strong>Failed!</strong> Message failed to send.</div>";
+								session_destroy();
+								session_unset();
+							}
+							?>
+                            <form name="form1" id="form1" action="" method="post">
+                                <div class="row form-group">
+                                    <div class="col-md-12">
+                                        <label for="fname">Your Name</label>
+                                        <input type="text" id="fname" class="form-control"  name="fullname" placeholder="Full Name" required>
+                                    </div>
+                                </div>
+
+                                <div class="row form-group">
+                                    <div class="col-md-12">
+                                        <label for="email">Email</label>
+                                        <input type="email" id="email" class="form-control" name="emailid" placeholder="Email" required>
+                                    </div>
+                                </div>
+
+
+
+                                <div class="row form-group">
+                                    <div class="col-md-12">
+                                        <label for="fsubject">Subject</label>
+                                        <input type="text" id="fsubject" class="form-control" name="subject" placeholder="Subject" required>
+                                    </div>
+
+                                </div>
+
+                                <div class="row form-group">
+                                    <div class="col-md-12">
+                                        <label for="message">Message</label>
+                                        <textarea id="message" cols="30" rows="10" class="form-control" name="comments" placeholder="Comments"></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="submit" value="submit" name="submit" class="btn btn-primary">
+                                </div>
+
+                            </form>
+
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12">
+                <!--<div class="col-sm-12">
                     <div class="social-icons">
                         <ul>
                             <a href="#"><li><span class="ion-social-facebook"></span></li></a>
@@ -569,10 +629,12 @@
                             <a href="#"><li><span class="ion-social-pinterest"></span></li></a>
                         </ul>
                     </div>
-                </div>
+                </div>-->
             </div>
         </div>
     </section>
+
+
     <footer class="footer">
         <div class="container">
             <div class="row">
@@ -580,8 +642,7 @@
                     <h5>©
                         <script>document.write(new Date().getFullYear());</script>
                         Copyright &copy;<script>document.write(new Date().getFullYear());</script>
-                        All rights reserved | Created with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="http://pkspiderweb.com"
-                                                                                                                  target="_blank">Pk Spider Web</a>
+                        All rights reserved | Created with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="http://pkspiderweb.com">Pk Spider Web</a>
                     </h5>
                 </div>
             </div>
